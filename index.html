@@ -8,7 +8,7 @@
     <script src="js/gallery.js"></script>
 </head>
 
-<body>
+<body onload="tabAccess()"> 
 
     <div id="image" >
         Hover over an image below to display here.
@@ -25,7 +25,7 @@
     <img class="preview" alt="Cat on couch looking at camera, eyes half-closed." src="images/cou1.jpeg"
         onmouseover="upDate(this)" onmouseout="unDo()">
     <img class="preview" alt="Cat on couch looking below camera." src="images/cou2.jpeg" onmouseover="upDate(this)"
-        onmouseout="unDo()" onload="tabAccess()">
+        onmouseout="unDo()">
 
 </body>
 
